@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>
+        Lists !
+    </title>
+
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #header {
+            color: blue;
+        }
+
+        .deneme {
+            font-weight: bold;
+        }
+
+        ul li {
+            color: red;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: green;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+        button[name="attDeneme"]:hover {
+            background-color: blue;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <ol>
+        <li class="deneme">
+            first item
+        </li>
+        <li>
+            second item
+        </li>
+        <li>third item
+            <ul>
+                <li>deneme 1</li>
+                <li>deneme 2</li>
+            </ul>
+        </li>
+        <li>fourth</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr id="header">
+                <th>Ocean</th>
+                <th>Avg Depth</th>
+                <th>Max Depth</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="deneme">
+                <td>Pasific</td>
+                <td>1,234.50</td>
+                <td>300.43</td>
+            </tr>
+            <tr class="deneme">
+                <td>Hint</td>
+                <td>1224</td>
+                <td>1111</td>
+            </tr>
+            <tr>
+                <td>Atlas</td>
+                <td>01010</td>
+                <td>3334</td>
+            </tr>
+
+        </tbody>
+
+
+
+    </table>
+
+    <button>Click Me 1</button>
+    <button name="attDeneme">Click Me 2</button>
+    <button>Click Me 3</button>
+
+</body>
+
+</html>
