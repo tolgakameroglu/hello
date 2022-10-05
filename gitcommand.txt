@@ -14,6 +14,9 @@ git branch
 git checkout -b "new branch name"
 git checkout master(or other branch name)
 
+git push origin branchname:branchname (çalışılan branche push ediyorsun)
+(sonra github a gidip create Pr than Merge master )
+
 
 
 
