@@ -1,0 +1,19 @@
+git clone "link"
+
+git commit -m "commit message"
+
+git add lists.html  or git commit -am "add and commit message"
+
+git pull
+
+git push
+
+git status
+git branch
+
+git checkout -b "new branch name"
+git checkout master(or other branch name)
+
+
+
+
