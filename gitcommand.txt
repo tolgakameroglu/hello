@@ -2,7 +2,9 @@ git clone "link"
 
 git commit -m "commit message"
 
-git add lists.html  or git commit -am "add and commit message"
+git add lists.html   
+
+git commit -am "merge message"
 
 git pull
 
