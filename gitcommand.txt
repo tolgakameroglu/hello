@@ -4,6 +4,8 @@ git commit -m "commit message"
 
 git add lists.html   
 
+git add --all
+
 git commit -am "merge message"
 
 git pull
