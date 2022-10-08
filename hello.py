@@ -33,7 +33,7 @@ print(F"the set has {len(s)} elements")
 
 
 
-n = int(input("Number : "))
+""" n = int(input("Number : "))
 
 if n>0 :
     print("n is positive")
@@ -43,4 +43,19 @@ else:
     print("n is zero")
     print("deneme1")
 
-print("deneme3")
+for i in range(n):
+    print(i) """
+
+
+#list
+""" names = ["tolga","neso","ipo","nazo"] 
+for name in names:
+    print(name) """
+#dict
+houses = {"neso":"mkp ioo","ipo":"bhyal","nazo":"okyanus"}
+houses["tolga"] = "house"
+
+for s in houses:
+    print(s +" : " + houses[s])
+
+
