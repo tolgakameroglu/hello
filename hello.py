@@ -60,7 +60,21 @@ for s in houses:
  """
 
 
+# import.functions
+# for i in range(10):
+#    print(f"the square of {i} is {functions.square(i)}")
+
 from functions import square
+
+
 
 for i in range(10):
     print(f"the square of {i} is {square(i)}")
+
+
+from classes import Point
+p = Point(2, 8)
+
+print(p.x)
+print(p.y)
+
