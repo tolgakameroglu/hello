@@ -24,5 +24,8 @@ git push origin branchname:branchname (çalışılan branche push ediyorsun)
 git pull origin master ( or brachname )
 
 
-
+CHANGE PYTHON3 DEFAULT ALIAS ON MAC
+nano ~/.bash_profile on terminal
+alias python="python3" 
+alias pip="pip3"
 
