@@ -52,10 +52,15 @@ for i in range(n):
 for name in names:
     print(name) """
 #dict
-houses = {"neso":"mkp ioo","ipo":"bhyal","nazo":"okyanus"}
+""" houses = {"neso":"mkp ioo","ipo":"bhyal","nazo":"okyanus"}
 houses["tolga"] = "house"
 
 for s in houses:
     print(s +" : " + houses[s])
+ """
 
 
+from functions import square
+
+for i in range(10):
+    print(f"the square of {i} is {square(i)}")
