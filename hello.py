@@ -78,3 +78,14 @@ p = Point(2, 8)
 print(p.x)
 print(p.y)
 
+
+from classes import Flight
+
+flight = Flight(3)
+
+people = ["neso","ipo","nazo","tolga"]
+for person in people:
+    if flight.add_pessengers(person):
+        print(f"Added {person} successfully")
+    else:
+        print(f"No available seats for {person}")
